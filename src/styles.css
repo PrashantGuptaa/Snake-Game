@@ -1,4 +1,52 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+.gameContainer {
+  height: 450px;
+  width: 800px;
+  margin: 10px 250px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 5px lightblue;
+  background: #7f7fd5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #91eae4,
+    #86a8e7,
+    #7f7fd5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #91eae4,
+    #86a8e7,
+    #7f7fd5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.snakeBlock {
+  min-height: 20px;
+  min-width: 20px;
+  background-color: #654ea3;
+  border-radius: 10px;
+  margin: 0.5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0.1px solid white;
+}
+
+.food {
+  min-height: 20px;
+  min-width: 20px;
+  background-color: #f5af19;
+  border: 1px solid gold;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.score {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+body {
+  overflow: hidden;
 }
