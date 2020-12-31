@@ -133,6 +133,7 @@ const App = () => {
     setfoodCoordinate(foodCoordinates);
     setshowRestartButton(false);
     setGameOver(false);
+    setCurrentDirection('right');
   };
 
   const isFoodEaten = () => {
