@@ -21,24 +21,24 @@
 .snakeBlock {
   min-height: 20px;
   min-width: 20px;
-  background-color: #654ea3;
+  background-color: blue;
   border-radius: 10px;
   margin: 0.5px;
   position: absolute;
   top: 0;
   left: 0;
-  border: 0.1px solid white;
+  border: 3px solid white;
 }
 
 .food {
   min-height: 20px;
   min-width: 20px;
-  background-color: #f5af19;
-  border: 1px solid gold;
+  background-color: red;
   border-radius: 10px;
   position: absolute;
   top: 0;
   left: 0;
+  border: 3px double white;
 }
 .score {
   font-size: 25px;
